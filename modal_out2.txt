@@ -1,0 +1,2 @@
+text='서울·용산 - 수서 함께 보기' tag=span attrs={'class': ['label']} parent=li parentattrs={}
+text='서울' tag=a attrs={'href': '#none'} parent=span parentattrs={'class': ['ch_tag']}

@@ -1,0 +1,34 @@
+BUTTON {'class': ['stop'], 'style': 'display: inline-block;'} | 일시정지
+BUTTON {'class': ['topclose_btn']} | 팝업 닫기
+BUTTON {'id': 'langChangeButton', 'title': '홈페이지 언어 선택', 'class': ['dropdown-button'], 'aria-haspopup': 'true', 'aria-expanded': 'false'} | Language
+BUTTON {'id': 'langChangeButton', 'title': '홈페이지 언어 선택', 'class': ['dropdown-button'], 'aria-haspopup': 'true', 'aria-expanded': 'false'} | Language
+BUTTON {'type': 'button', 'class': ['btn-allmenu']} | 전체 메뉴 열기
+BUTTON {'type': 'button', 'class': ['btn-allmenu_m']} | 전체 메뉴 열기
+BUTTON {'type': 'button', 'class': ['allclose']} | 전체메뉴닫기
+BUTTON {'type': 'button', 'class': ['m_allclose']} | 전체메뉴닫기
+BUTTON {'class': ['logoutBtn']} | 로그인
+BUTTON {'class': ['mypageBtn']} | 마이페이지
+BUTTON {'class': ['mypageBtn']} | 기업전용
+BUTTON {'id': 'langChangeButton', 'title': '홈페이지 언어 선택', 'class': ['dropdown-button'], 'aria-haspopup': 'true', 'aria-expanded': 'false'} | Language
+BUTTON {} | 한국철도
+BUTTON {} | 기차여행
+BUTTON {'type': 'button', 'class': ['backbtn']} | 뒤로가기
+BUTTON {'type': 'button', 'class': ['path_button'], 'aria-expanded': 'false', 'title': '0depth 메뉴 목록'} | 승차권
+BUTTON {'type': 'button', 'class': ['path_button'], 'aria-expanded': 'false', 'title': '1depth 메뉴 목록'} | 예매
+BUTTON {'type': 'button', 'class': ['path_button'], 'aria-expanded': 'false', 'title': '2depth 메뉴 목록'} | 승차권 예매
+BUTTON {'type': 'button', 'class': ['share_button', 'hidden']} | 공유
+BUTTON {'type': 'button', 'class': ['share_close']} | 공유하기 닫기
+BUTTON {'type': 'button', 'class': ['print_button']} | 인쇄
+BUTTON {'type': 'button', 'class': ['btnChange']} | 출발지/도착지 전환
+BUTTON {'type': 'button', 'class': ['btnToggle', 'fl-r'], 'aria-expanded': 'false'} | 확대
+BUTTON {'type': 'button', 'class': ['btn_lookup']} | 열차 조회
+BUTTON {'class': ['go-to-top__btn', 'hidden']} | 위로 가기
+BUTTON {'id': 'relatedSiteButton', 'title': '관련 사이트 선택', 'class': ['dropdown-button'], 'aria-haspopup': 'true', 'aria-expanded': 'false'} | 관련 사이트
+BUTTON {} | 
+BUTTON {'type': 'button', 'class': ['btn_close']} | 레이어닫기
+BUTTON {'type': 'button', 'data-role': 'none', 'class': ['slick-arrow', 'slick-prev', 'slick-disabled'], 'tabindex': '-1', 'aria-disabled': 'true', 'style': 'display: block;'} | Previous
+BUTTON {'type': 'button', 'data-role': 'none', 'class': ['slick-arrow', 'slick-next'], 'tabindex': '0', 'aria-disabled': 'false', 'style': 'display: block;'} | Next
+BUTTON {'type': 'button', 'data-role': 'none', 'class': ['slick-arrow', 'slick-prev'], 'tabindex': '0', 'aria-disabled': 'false', 'style': 'display: block;'} | Previous
+BUTTON {'type': 'button', 'data-role': 'none', 'class': ['slick-arrow', 'slick-next', 'slick-disabled'], 'tabindex': '-1', 'aria-disabled': 'true', 'style': 'display: block;'} | Next
+BUTTON {'type': 'button', 'class': ['btn_by-blue', 'btn_pop-close']} | 취소
+BUTTON {'type': 'button', 'class': ['btn_bn-blue']} | 적용

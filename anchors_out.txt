@@ -1,0 +1,8 @@
+{'class': ['btn_pop', 'btn_end', 'btn_pop-open'], 'href': '#none'} | 출발역 선택
+  parent: div {'class': ['start']}
+{'class': ['btn_pop', 'btn_end', 'btn_pop-open'], 'href': '#none'} | 도착역 선택
+  parent: div {'class': ['end']}
+{'href': '#none', 'class': ['btn_pop', 'btn_d-day'], 'title': '출발일'} | 
+  parent: div {'class': ['writeWrap', 'day_type']}
+{'href': '#none', 'class': ['data', 'btn_pop'], 'title': '인원', 'tabindex': '0', 'aria-disabled': 'false'} | 총 1명
+  parent: div {'class': ['writeWrap']}
