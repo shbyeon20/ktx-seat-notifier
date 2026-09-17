@@ -1,7 +1,12 @@
 {
-  "search_button": { "x": 0, "y": 0 },
-  "seat_status_region": { "left": 0, "top": 0, "width": 100, "height": 40 },
+  "refresh": {
+    "next_day_button": { "x": 0, "y": 0 },
+    "prev_day_button": { "x": 0, "y": 0 }
+  },
   "sold_out_template": "templates/sold_out.png",
+  "match_confidence": 0.85,
   "check_interval_sec": 20,
-  "match_confidence": 0.85
+  "targets": [
+    { "name": "KTX207 09:04", "left": 0, "top": 0, "width": 100, "height": 40 }
+  ]
 }
