@@ -1,3 +1,5 @@
+import dpi_awareness  # noqa: F401  (pyautogui보다 먼저 import 해야 함)
+
 import time
 
 import pyautogui

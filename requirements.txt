@@ -2,3 +2,5 @@ pyautogui
 opencv-python
 pillow
 plyer
+pygetwindow
+pywin32

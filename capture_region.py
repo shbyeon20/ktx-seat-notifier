@@ -1,8 +1,11 @@
+import dpi_awareness  # noqa: F401  (pyautogui보다 먼저 import 해야 함)
+
 import json
 import time
 from pathlib import Path
 
 import pyautogui
+from PIL import ImageGrab
 
 BASE_DIR = Path(__file__).parent
 CONFIG_PATH = BASE_DIR / "config.json"
@@ -62,7 +65,11 @@ def add_target(config: dict, capture_template: bool):
     if capture_template:
         TEMPLATES_DIR.mkdir(exist_ok=True)
         input(f"\n'{name}' 열차가 지금 '매진' 상태인지 확인한 뒤 Enter 를 누르세요 (템플릿 캡처)...")
-        screenshot = pyautogui.screenshot(region=(left, top, width, height))
+        # pyautogui.screenshot()은 주 모니터만 캡처하므로, 다른 모니터에 창이 있어도
+        # 되도록 모든 모니터를 포함해 직접 캡처한다.
+        screenshot = ImageGrab.grab(all_screens=True).crop(
+            (left, top, left + width, top + height)
+        )
         template_path = TEMPLATES_DIR / "sold_out.png"
         screenshot.save(template_path)
         print(f"템플릿 저장 완료: {template_path}")
