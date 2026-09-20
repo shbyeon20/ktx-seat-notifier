@@ -206,6 +206,10 @@ def main():
                             print(f"[{ts}] {name}: 좌석 발견 재확인! 알림을 보냅니다.")
                             already_alerted.add(name)
                             alert(name)
+                            input(
+                                f"\n>>> [{name}] 좌석 발견! 예매하시고, 계속 감시하려면 "
+                                "이 창에서 Enter를 누르세요...\n"
+                            )
                         else:
                             print(f"[{ts}] {name}: 좌석 발견(재확인 대기 중)...")
                             still_pending.add(name)
